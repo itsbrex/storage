@@ -1,5 +1,11 @@
 # @vercel/blob
 
+## 2.3.3
+
+### Patch Changes
+
+- d2ea7cf: Enforce `maximumSizeInBytes` client-side for multipart uploads. Bodies with a known size (Blob, File, Buffer) are now checked before the upload starts, avoiding wasted API calls.
+
 ## 2.3.2
 
 ### Patch Changes
